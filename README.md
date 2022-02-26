@@ -6,16 +6,11 @@ supply water to the farm. Two sensors have been used here: an Ultrasonic Sensor 
 tank and a Soil Moisture Sensor to measure the moisture content of soil. The
 LCD displays the water level and moisture content in percentages taken from the sensors and the status of water tank and water pump either they are on or off. The project is
 based on four main conditins:
- If the water inside the water tank is below 50% we consider there is shortage of water
-inside the tank and the water tank is turned on.
- If the water inside the water tank is above 50% we consider there is enough amount of
-water inside the tank and the water tank is turned off.
- If the moisture content of soil is below 70% we consider the soil is dry and the water
-pump is turned on.
- If the moisture content of soil is above 70% we consider the soil is not dry and the water
-pump is turned off.
-If we increase or decrease the water level and moisture content we can see the changes in status
-of water tank and water pump.
+ If the water inside the water tank is below 50% it means there is shortage of water and the water tank is turned on.
+ If the water inside the water tank is above 50% it means there is enough amount of water inside the tank and the water tank is turned off.
+ If the moisture content of soil is below 70% it means the soil is dry and the water pump is turned on.
+ If the moisture content of soil is above 70% it means the soil is not dry and the water pump is turned off.
+If the water level and moisture content is increased or decreased, the changes in status of water tank and water pump can be seen.
 
 Equipments:
 Arduino UNO R3, Ultrasonic Sensor (HC SR-04), Soil Moisture Sensor (Designed by
@@ -25,9 +20,9 @@ Transistor, Battery, Capacitor, Inductor, Motor, Resistor, Variable Resistor or 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Object Recognition: 
-A four wheeled robot build in Webots: robot simulator with two distance sensors in the front and a camera on the top. The code is written in python. The robot can detect objects in front of it with the help of sensors and camera also changes its path accordingly by taking turns. Some of the objects such as cylinder, cone, round shapes etc. are made from scratch.  
+A four wheeled robot build in Webots: robot simulator with a camera and two distance sensors in the front. The robot can detect objects in front of it with the help of camera and sensors and changes its path accordingly by taking turns. Some of the objects such as cylinder, cone, round shapes etc. are made from scratch.  
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 PID controlled line follower: 
-A four wheeled robot build in Webots: robot simulator which follows a path or line. The line or track is designed in Autodesk Tinkercad and it has multiple turns. The robot has three Infrared sensors in its front which are used to detect the line on the floor. The code is written in python. PID is also implemented in the robot to calculate the error that is how much the robot gets deviated from the line and it adjusts the position of the robot to bring it back on the track.
+A four wheeled robot build in Webots: robot simulator which follows a path or line. The line or track is designed in Autodesk Tinkercad and it has multiple turns. The robot has three Infrared sensors in its front which are used to detect the line on the floor. PID is also implemented to calculate the error that is how much the robot gets deviated from the line and it adjusts the position of the robot to bring it back on the track.
