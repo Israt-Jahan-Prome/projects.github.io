@@ -3,7 +3,7 @@
 Arduino Based Automated Farming Sysyem:
 In this project, there is a water tank to store water from a source (e.g. river) and a water pump to
 supply water to the farm. Two sensors have been used here: an Ultrasonic Sensor to measure water level inside the water
-tank and a Soil Moisture Sensor to measure the moisture content of soil in the farm. The
+tank and a Soil Moisture Sensor to measure the moisture content of soil. The
 LCD displays the water level and moisture content in percentages taken from the sensors and the status of water tank and water pump either they are on or off. The project is
 based on four main conditins:
  If the water inside the water tank is below 50% we consider there is shortage of water
