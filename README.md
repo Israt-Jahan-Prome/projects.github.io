@@ -1,4 +1,6 @@
-# BracuProjects.github.io
+# projects.github.io
+
+**Following are the projects done for undergrad courses at BRACU**
 
 Arduino-Based Automated Farming System:
 The system uses a water tank to store water from a source (e.g., a river) and a water pump to
